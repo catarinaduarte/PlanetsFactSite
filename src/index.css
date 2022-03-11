@@ -1,0 +1,102 @@
+/* 
+
+--- 01 TYPOGRAPHY
+
+    Fonts:
+        Large Text: Antonio - 500
+        Small Text: Spartan - 400,  500, 600, 700
+
+    Font Sizes (px):
+        11 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 40 / 44 / 52 / 62 / 74 / 80 / 86 / 98
+
+    Font Weights:
+        Default: 400
+        Medium: 500
+        Semi-bold: 600
+        Bold: 700
+
+    Line Heights:
+        Default: 1
+        H1: 103px
+        H2: 52px
+        Paragraph: 25px
+
+    Letter Spacing:
+        -1.5
+        +2.6
+        +1
+
+        
+--- 02 COLOURS
+        
+        Primary: #070724
+        
+        Tints:
+
+        Shades: #38384f
+
+        Accents:
+            Planets:
+                Mercury: #419ebb
+                Venus: #eda249
+                Earth: #6f2ed6
+                Mars: #d14c32
+                Jupiter: #d83a34
+                Saturn: #cd5120
+                Uranus: #1ec2a4
+                Neptune: #2d68f0
+
+        Grays: #838392
+
+        Buttons:hover #313148
+        
+--- 05 SHADOWS
+
+    
+
+--- 06 BORDER-RADIUS
+
+    
+
+--- 07 WHITESPACE
+    Spacing (px):
+        2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--- Media Queries
+        1360px - 85em : Laptop
+        1104px - 69em : Laptop (small)
+        896px - 56em : Tablet (large)
+        800px - 50em : Tablet 
+        384px - 24em : Mobile
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #070724;
+    color: #fff;
+    font-family: "Spartan", sans-serif;
+}
+
+/* Below 1104px - Laptop (small) */
+@media (max-width: 69em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 56em) {
+    html {
+        font-size: 50%;
+    }
+}
